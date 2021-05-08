@@ -21,6 +21,7 @@ namespace POSAPP
     /// </summary>
     public partial class MainWindow : Window
     {
+        //untuk sql command dan untuk memanggil koneksi untuke menghubungkan ke database
         private SqlCommand sqlCmd;
         Koneksi konn = new Koneksi();
         public MainWindow()
@@ -28,11 +29,13 @@ namespace POSAPP
             InitializeComponent();
         }
 
+        //untuk tombol exit
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
 
+        //tombol login yang mana akan mengecek username dan passwordnya ada di tabel user atau tidak dan akan mengalihkan ke mainApp jika berhasil login
         private void Login_Click(object sender, RoutedEventArgs e)
         {
             SqlDataReader read = null;
@@ -55,6 +58,7 @@ namespace POSAPP
             }
         }
 
+        //mengarahkan ke menu register jika mengclick tombol register 
         private void Register_Click(object sender, RoutedEventArgs e)
         {
             Register regis = new Register();

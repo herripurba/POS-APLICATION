@@ -9,6 +9,7 @@ namespace POSAPP
 {
     class Koneksi
     {
+        //Koneksi ke database dengan sql server
         public SqlConnection GetConn()
         {
             SqlConnection Conn = new SqlConnection();
