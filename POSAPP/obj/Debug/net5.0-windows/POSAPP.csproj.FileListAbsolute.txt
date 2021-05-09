@@ -5,7 +5,6 @@ D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\POSAPP.runtimeconfig.dev.js
 D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\POSAPP.dll
 D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\ref\POSAPP.dll
 D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\POSAPP.pdb
-D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP.csprojAssemblyReference.cache
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\App.g.cs
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP_MarkupCompile.cache
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP_MarkupCompile.lref

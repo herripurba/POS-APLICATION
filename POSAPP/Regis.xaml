@@ -33,7 +33,7 @@
                     </StackPanel>
                     <StackPanel Margin="10" Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="BriefcaseVariant"  Width="25" Height="25" Foreground="White"/>
-                        <ComboBox Width="250" ItemsSource="{Binding roleBox}"  x:Name="RoleBox" Margin="5 0" materialDesign:HintAssist.Hint="Pick Your Role" Foreground="#FF100F0F" BorderBrush="#FFF5E9E9" IsSynchronizedWithCurrentItem="True" Background="#FFF7EEEE" />
+                        <ComboBox Width="250" ItemsSource="{Binding roleBox}"  x:Name="RoleBox" Margin="5 0" materialDesign:HintAssist.Hint="Pick Your Role" Foreground="Black" BorderBrush="White" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 40">
                         <StackPanel Orientation="Horizontal" Margin="15">

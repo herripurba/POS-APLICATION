@@ -23,5 +23,10 @@ namespace POSAPP
         {
             InitializeComponent();
         }
+
+        private void dropDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
