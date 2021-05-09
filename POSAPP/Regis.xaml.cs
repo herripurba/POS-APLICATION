@@ -66,5 +66,10 @@ namespace POSAPP
         {
             DragMove();
         }
+
+        private void RoleBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
