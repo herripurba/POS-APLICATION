@@ -5,8 +5,114 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:POSAPP"
         mc:Ignorable="d"
-        Title="MainMenu" Height="450" Width="1000" WindowStartupLocation="CenterScreen">
-    <Grid MouseDown="dropDown">
-        
+        Title="MainMenu" Height="750" Width="1400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="486" Margin="10,10,0,0" VerticalAlignment="Top" Width="415" Background="red" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="486" Margin="821,10,0,0" VerticalAlignment="Top" Width="569" Background="red">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+                <Button Content="Button" Height="74" Width="128" VerticalAlignment="Top" Margin="5"/>
+            </StackPanel>
+
+        </StackPanel>
+        <StackPanel  Height="214" Margin="0,510,0,0" VerticalAlignment="Top" Width="1380" Background="red" Orientation="Horizontal">
+            <StackPanel Height="200" Width="440" Margin="10" Background="Yellow">
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Sub Total" FontSize="30"></TextBlock>
+                    <TextBox Width="150" Margin="20 0" Background="blue"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Tax" FontSize="30"></TextBlock>
+                    <TextBox Width="150" Margin="100 0" Background="blue"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Total" FontSize="30"></TextBlock>
+                    <TextBox Width="150" Margin="80 0" Background="blue"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="200" Width="440" Margin="10" Background="Yellow">
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Method Peyment" FontSize="30"></TextBlock>
+
+                    <ComboBox Background="Blue" Width="150" Margin="20 0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Cost" FontSize="30"></TextBlock>
+
+                    <TextBox Width="150" Margin="150 0" Background="blue"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <TextBlock Text="Change" FontSize="30"></TextBlock>
+                    <TextBox Width="150" Margin="110 0" Background="blue"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Height="200" Width="440" Margin="10" Background="Yellow">
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Button" Height="74" Width="210" VerticalAlignment="Top" Margin="5"/>
+                    <Button Content="Button" Height="74" Width="210" VerticalAlignment="Top" Margin="5"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Button" Height="74" Width="210" VerticalAlignment="Top" Margin="5"/>
+                    <Button Content="Button" Height="74" Width="210" VerticalAlignment="Top" Margin="5"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <DataGrid HorizontalAlignment="Left" Height="481" Margin="428,15,0,0" VerticalAlignment="Top" Width="388" Grid.Column="3" Grid.Row="90">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Item" Width="100"/>
+                <DataGridTemplateColumn Header="Quantity" Width="150"/>
+                <DataGridTemplateColumn Header="Amount" Width="150"/>
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+
     </Grid>
 </Window>
