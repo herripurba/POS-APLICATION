@@ -7,7 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MainApp.xaml.cs">
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Register.xaml.cs">
@@ -15,10 +18,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainApp.xaml">
+    <Page Update="Login.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="MainMenu.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Register.xaml">

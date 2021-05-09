@@ -33,8 +33,8 @@ namespace POSAPP
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWind = new MainWindow();
-            mainWind.Show();
+            Login lgn = new Login();
+            lgn.Show();
             this.Hide();
         }
 
@@ -54,8 +54,8 @@ namespace POSAPP
                 sqlCmd.ExecuteNonQuery();
                 MessageBox.Show("Berhasil regis");
 
-                MainWindow mainWind = new MainWindow();
-                mainWind.Show();
+                Login lgn = new Login();
+                lgn.Show();
                 this.Hide();
             }
 

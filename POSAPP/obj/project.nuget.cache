@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kvjzoqGen2XnhLz/CxdiQ1/PTLexJLMPASjKTmV2JL6Yn3JSsTMzwA9YVM/5StRBO+bVA9JijnXKa2CNTa9Mkg==",
+  "dgSpecHash": "4p9elI0sMC26bTV/XEnjffXHfnnKZbCTwLx1hRrilTWS9WU9amiFZi+w6KmsMXmdGMk63k/bgs4txL+em1m+aA==",
   "success": true,
   "projectFilePath": "D:\\HERRI\\PBKK\\POSAPP\\POSAPP\\POSAPP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\materialdesigncolors\\2.0.0\\materialdesigncolors.2.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\materialdesignthemes\\4.0.0\\materialdesignthemes.4.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
