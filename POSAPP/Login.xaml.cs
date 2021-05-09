@@ -56,7 +56,7 @@ namespace POSAPP
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
-            Register regis = new Register();
+            Regis regis = new Regis();
             regis.Show();
             this.Hide();
         }

@@ -6,11 +6,9 @@ D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\POSAPP.dll
 D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\ref\POSAPP.dll
 D:\HERRI\PBKK\POSAPP\POSAPP\bin\Debug\net5.0-windows\POSAPP.pdb
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP.csprojAssemblyReference.cache
-D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\Register.g.cs
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\App.g.cs
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP_MarkupCompile.cache
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP_MarkupCompile.lref
-D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\Register.baml
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP.g.resources
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP.GeneratedMSBuildEditorConfig.editorconfig
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\POSAPP.AssemblyInfoInputs.cache
@@ -34,3 +32,5 @@ D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\App.baml
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\Login.baml
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\MainMenu.g.cs
 D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\MainMenu.baml
+D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\Regis.g.cs
+D:\HERRI\PBKK\POSAPP\POSAPP\obj\Debug\net5.0-windows\Regis.baml

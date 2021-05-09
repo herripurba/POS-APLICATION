@@ -16,40 +16,35 @@ using System.Data.SqlClient;
 namespace POSAPP
 {
     /// <summary>
-    /// Interaction logic for Register.xaml
+    /// Interaction logic for Regis.xaml
     /// </summary>
-    public partial class Register : Window
+    public partial class Regis : Window
     {
         public string[] roleBox { get; set; }
         private SqlCommand sqlCmd;
         Koneksi konn = new Koneksi();
-        public Register()
+        public Regis()
         {
             InitializeComponent();
-
             roleBox = new string[] { "Admin", "User" };
             DataContext = this;
         }
 
-        private void Cancel_Click(object sender, RoutedEventArgs e)
+        private void btnExit_Click(object sender, RoutedEventArgs e)
         {
-            Login lgn = new Login();
-            lgn.Show();
-            this.Hide();
+            Application.Current.Shutdown();
         }
 
-        //SYntax untuk memasukkan data register ke database 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnRegis_Click(object sender, RoutedEventArgs e)
         {
-            //tidak ad kolom yang kososng
-            if(Username.Text.Trim()==""|| Password.Text.Trim() == "" || Name.Text.Trim() == "" || RoleBox.Text.Trim() == "")
+            if (Username.Text.Trim() == "" || Password.Password.Trim() == "" || Name.Text.Trim() == "" || RoleBox.Text.Trim() == "")
             {
                 MessageBox.Show("Pastikan semua terisi");
             }
             else
             {
                 SqlConnection Conn = konn.GetConn();
-                sqlCmd = new SqlCommand("Insert into TBL_USER values ('"+ Username.Text + "','" + Password.Text + "','" + Name.Text + "','" + RoleBox.Text + "')",Conn);
+                sqlCmd = new SqlCommand("Insert into TBL_USER values ('" + Username.Text + "','" + Password.Password + "','" + Name.Text + "','" + RoleBox.Text + "')", Conn);
                 Conn.Open();
                 sqlCmd.ExecuteNonQuery();
                 MessageBox.Show("Berhasil regis");
@@ -58,7 +53,18 @@ namespace POSAPP
                 lgn.Show();
                 this.Hide();
             }
+        }
 
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            Login lgn = new Login();
+            lgn.Show();
+            this.Hide();
+        }
+
+        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
         }
     }
 }
