@@ -38,8 +38,10 @@ namespace POSAPP
             this.Hide();
         }
 
+        //SYntax untuk memasukkan data register ke database 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //tidak ad kolom yang kososng
             if(Username.Text.Trim()==""|| Password.Text.Trim() == "" || Name.Text.Trim() == "" || RoleBox.Text.Trim() == "")
             {
                 MessageBox.Show("Pastikan semua terisi");
