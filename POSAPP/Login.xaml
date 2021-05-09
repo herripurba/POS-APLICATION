@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:POSAPP"
         mc:Ignorable="d"
-        Title="Login" Height="450" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="Login" Height="450" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
     <Grid MouseDown="Border_MouseDown">
         <Grid.Background>
             <LinearGradientBrush StartPoint="0.1,0.5" EndPoint="0.9,0.5">
@@ -45,7 +45,7 @@
 
             </StackPanel>
             <StackPanel Width="50">
-                <Button  Width="20" Height="20" Margin="10" Style="{StaticResource MaterialDesignFloatingActionAccentButton}" Background="{x:Null}"
+                <Button  Width="30" Height="30" Margin="10" Style="{StaticResource MaterialDesignFloatingActionAccentButton}" Background="{x:Null}"
                          ToolTip="Close" x:Name="btnClose" Click="btnClose_Click">
                     <materialDesign:PackIcon Kind="Close" Foreground="White"/>
                 </Button>
